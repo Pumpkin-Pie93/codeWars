@@ -15,3 +15,4 @@ function isFlush(cards) {
     return res
   }
   isFlush([  "AD", "4S",  "7H", "KC", "5S" ])
+//-----------------------------------------------

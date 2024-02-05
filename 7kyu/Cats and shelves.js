@@ -31,3 +31,12 @@
 
 //---------------------------------------------
 
+// function solution(start, finish) 
+// {
+// if((finish - start) % 3 === 0){
+//   return (finish - start) / 3
+// } else {
+//   let res = Math.floor((finish - start) / 3)
+//   return ((finish - start) - res) % 2 === 0? res +2: res +1
+// }
+// }

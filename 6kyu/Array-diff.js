@@ -10,3 +10,11 @@
 
 //-------------------
 
+// function arrayDiff(a, b) {
+//     let setB = new Set(b);
+//     return a.filter(element => !setB.has(element));
+// }
+
+//-------------
+
+// array_diff = (a, b) => a.filter(e => !b.includes(e))

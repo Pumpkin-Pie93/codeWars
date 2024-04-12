@@ -24,4 +24,18 @@
 //   },0);
 //     return res
 //   }
+
+function solution(number){
+    let arr = []
+    if(number===0) return 0
+    for(let i = 1; i < number; i++){
+        arr.push(i)
+    }
+    let newArr =  arr.filter(el=> (el  % 3 === 0) ||  (el  % 5 === 0) )
+    return newArr.reduce((s,curr)=>{
+        return s + curr
+    },0)
+}
+
+console.log(solution(0))
     
